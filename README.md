@@ -4,32 +4,20 @@ Implemented CNN to classify 5 different types of flowers
 data set: https://www.kaggle.com/alxmamaev/flowers-recognition#flowers.zip
 
 original file structure:
+
 /data
+
     /daisy
+    
     /dandelion
+    
     /rose
+    
     /sunflower
+    
     /tulip
     
-after running ppimages.py:
-/data
-    /daisy
-    /dandelion
-    /rose
-    /sunflower
-    /tulip
-/train (containing 70% of images for each class)
-    /daisy
-    /dandelion
-    /rose
-    /sunflower
-    /tulip
-/val (remaining 30%)
-    /daisy
-    /dandelion
-    /rose
-    /sunflower
-    /tulip
+split data into training and validation sets and fixed aspect ratio using ppimages.preprocess_images()
     
 trained model using cnn_flowers.train()
 
