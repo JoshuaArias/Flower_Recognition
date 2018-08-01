@@ -1,5 +1,5 @@
 # Flower_Recognition
-Implemented CNN to classify 5 different types of flowers
+Implemented CNN to classify 5 different types of flowers, 89% training accuracy, 65% validation accuracy
 
 data set: https://www.kaggle.com/alxmamaev/flowers-recognition#flowers.zip
 
