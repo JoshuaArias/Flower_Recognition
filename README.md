@@ -5,17 +5,17 @@ data set: https://www.kaggle.com/alxmamaev/flowers-recognition#flowers.zip
 
 original file structure:
 
-/data
+    /data
 
-    /daisy
+        /daisy
     
-    /dandelion
+        /dandelion
     
-    /rose
+        /rose
     
-    /sunflower
+        /sunflower
     
-    /tulip
+        /tulip
     
 split data into training and validation sets and fixed aspect ratio using ppimages.preprocess_images()
     
