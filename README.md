@@ -3,7 +3,7 @@ Implemented CNN to classify 5 different types of flowers
 
 data set: https://www.kaggle.com/alxmamaev/flowers-recognition#flowers.zip
 
-original file structure:
+file structure after download:
 
     /data
 
@@ -17,11 +17,11 @@ original file structure:
     
         /tulip
     
-split data into training and validation sets and fixed aspect ratio using ppimages.preprocess_images()
+1. Split data into training and validation sets and fixed aspect ratio using ppimages.preprocess_images()
     
-trained model using cnn_flowers.train()
+2. Trained model using cnn_flowers.train()
 
-downloaded test set images using FatKun Batch Download Image Chrome Extension
+3. Downloaded test set images using FatKun Batch Download Image Chrome Extension
 
-loaded trained model using cnn_flowers.test_trained_model()
+4. Loaded trained model using cnn_flowers.test_trained_model()
 
